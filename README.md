@@ -1,4 +1,4 @@
-# Meu Currículo Online
+# Meu Currículo Online (em construção)
 
 Este repositório contém o código-fonte do meu site pessoal, hospedado através do GitHub Pages. No site, você encontrará informações detalhadas sobre minha trajetória profissional, incluindo minha formação acadêmica, experiência de trabalho e habilidades técnicas. Além disso, listei alguns projetos de aprendizado que desenvolvi, os quais demonstram minha evolução e dedicação ao aprimoramento contínuo.
 
@@ -17,4 +17,5 @@ Agradeço pela visita e fique à vontade para entrar em contato caso tenha inter
 - CSS
 - JavaScript
 
+(Ainda em desenvolvimento)
 Tenha um ótimo dia!
