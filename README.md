@@ -1,4 +1,4 @@
-# 👋 Bem-vindo ao meu currículo online! (Em construção, em breve estará completa!)
+# 👋 Bem-vindo ao meu currículo online! (Em construção, em breve estará completo!)
 
 Este repositório abriga uma versão interativa do meu **currículo**, desenvolvida com HTML, CSS e JavaScript puro, e publicada por meio do **GitHub Pages**. A ideia aqui é ir além de um PDF tradicional e apresentar, de forma leve e visual, um pouco sobre minha **trajetória profissional**, **formação**, **projetos pessoais** e como entrar em **contato comigo**.
 
@@ -22,22 +22,6 @@ Este projeto foi desenvolvido sem frameworks.
 - CSS
 - JavaScript
 - GitHub Pages para hospedagem
-
-## 📁 Estrutura do projeto
-
-.
-├── index.html # Página principal
-├── README.md
-├── assets
-│ ├── css
-│ │ ├── reset.css
-│ │ └── style.css
-│ ├── js
-│ │ └── script.js
-│ └── media
-│ ├── 3x4.jpg
-│ ├── demonstracao.mp4
-│ └── favicon.ico
 
 ## 🚧 Em constante construção
 
