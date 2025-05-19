@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem vindo(a)!</title>
+    <title>Currículo</title>
+    <link rel="icon" href="assets/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <video controls="" src="demonstracao.mp4" width="80%"></video>    
+    <header class="cabecalho">
+        <div class="bruno">
+            <img src="assets/media/3x4.jpg" alt="Foto 3x4" class="foto-circular">
+            <span>Bruno Angelo De Souza - Desenvolvedor</span> 
+        </div>
+        Header
+    </header>
+      
+    <main class="pagina">
+        <section class="introducao">
+            <div class="introducao-texto">
+            <p>
+                Bem vindo(a)! O propósito desse site é apresentar um pouco de mim e da minha 
+                experiência até agora, de forma interativa. Aqui vou apresentar projetos
+                pessoais e da faculdade, e outras experiências como programas ou eventos dos quais
+                participei, passando por tecnologias utilizadas e/ou aprendizados adquiridos.
+            </p>
+            </div>
+            <div class="em-construcao">
+                <img src="assets/media/em-construcao.png" width="128px" height="128px">
+                <div>Esta página está em construção, em breve estará completa!</div>
+            </div>
+        </section>
+        
+        <!-- <section class="miniaturas">
+            Miniaturas
+            <button>Teste</button>
+        </section> -->
+
+        <section class="canva">
+            <div class="projeto">
+                <div class="projeto-titulo">Better Study</div>
+                <div class="projeto-corpo">
+
+                    <div class="projeto-basico">
+                        <div class="projeto-basico video">
+                            <video  src="assets/media/demonstracao.mp4" controls="" 
+                            class="video-demonstracao" width="512px" height="298px"></video>
+                        </div>
+                        <ul class="projeto-basico lista">
+                            <li>Angular</li>
+                            <li>HTML</li>
+                            <li>SCSS</li>
+                            <li>TypeScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="projeto-paragrafo">
+                        BetterStudy é um site para orientação de estudos, destinado a alunos que desejam estudar de maneira eficiente. 
+                        Através de um login no SIGA (Sistema Integrado de Gestão de Alunos), do Centro Paula Souza, o site faz scrape das notas e cria um ranqueamento
+                        baseado no sistema de estudos ABC. <br><br> 
+                        Atualmente, o scrape é feito utilizando Flask (API Python) e Selenium (biblioteca scrape) para receber requisições HTTP
+                        com o login e senha de usuário, retornando as notas e o nome do aluno. Futuramente, adicionarei uma análise de IA para determinar quais 
+                        matérias merecem atenção, levando em conta fatores como: matéria está sendo cursada ou já foi concluída?; divisão de matérias em temas (programação, agricultura, etc).
+                        <br><br>
+                        O objetivo principal do projeto é aprender o framework Angular, devido à sua robustez e escalabilidade. Ademais, objetivos secundários incluem 
+                        aumentar minha capacidade com bibliotecas Python e requisições a APIs, além de explorar algoritmos como árvores binárias (utilizada para instanciar nós com WebDrivers e seus IDs).
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+              
+    <footer class="rodape">
+        Rodapé
+    </footer>
+  
 </body>
 </html>

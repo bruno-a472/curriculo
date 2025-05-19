@@ -1,0 +1,166 @@
+/* Tipografia e cores principais */
+:root {
+    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+  
+    --color-bg: #f9f9f9;
+    --color-text: #222;
+    --color-accent: #0077cc;
+    --color-muted: #666;
+  }
+  
+  /* Body e estrutura geral */
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    /* max-width: 900px; */
+    margin: auto;
+  }
+
+  .pagina {
+    padding-inline: 2rem;
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 0.5em;
+  }
+  
+  /* Parágrafos */
+  p {
+    margin-bottom: 1em;
+    color: var(--color-text);
+  }
+  
+  /* Links */
+  a {
+    color: var(--color-accent);
+    transition: color 0.2s;
+  }
+  a:hover {
+    color: #005fa3;
+  }
+  
+  /* Seções */
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Botões */
+  button {
+    background-color: var(--color-accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  button:hover {
+    background-color: #005fa3;
+  }
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c75ff;
+    color: #fff;
+    min-height: 80px;
+    max-height: 100px;
+    padding: 8px 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+    .bruno {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+.foto-circular {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid white;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    margin: 32px 100px;
+    height: 264px;
+    line-height: 1.6;
+}
+
+.em-construcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 32px;
+    background-color: #7e7e7e;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* .miniaturas {
+    background-color: burlywood;
+    height: 100px;
+} */
+
+.projetos {
+    background-color: burlywood;
+    height: 100vh;
+}
+
+.projeto {
+    background: #eeeeee;
+    display: flex;
+    padding: 16px 48px;
+    flex-direction: column;
+    height: fit-content;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.projeto-titulo {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
+.projeto-corpo {
+    display: flex;
+}
+
+.projeto-basico {
+    width: 50%;
+}
+
+.projeto-paragrafo {
+    width: 50%;
+    line-height: 1.6;
+    
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c75ff;
+    color: #fff;
+    min-height: 64px;
+    max-height: 80px;
+    padding: 8px 2rem;
+    font-family: 'Montserrat', sans-serif;
+}

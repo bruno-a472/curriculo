@@ -1,0 +1,54 @@
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin, padding e set height 100% */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Remove default styles de headings, listas, etc. */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remove bullets e padding em listas */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove sublinhado em links por padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bordas e estilos de botões e inputs */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Imagens responsivas */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
